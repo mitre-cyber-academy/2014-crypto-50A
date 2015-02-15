@@ -1,0 +1,9 @@
+Name: Simple Crypto
+
+Description: The user is given a JPEG image. The image depicts a message and a series of symbols. The user's objective is to use hints given to find a means of decoding the symbols.
+
+Solution: The language used is Alienese from the TV series Futurama (there are subtle hints in both the image and in the image's metadata). The most common method of solving this problem are to look up a translator (http://www.gotfuturama.com/Interactive/AlienCodec/), and input the symbols into the translator. The language doesn't support numbers, so all of the numbers have been converted into their corresponding words. The words need to be converted back into numbers to find the flag.
+
+Decoded message: Shut up and take my flag efour eightthreeeight seven dtwo threefive threecsix fzero deighte zero ethree ninebc ninenine zero onetwo threethree ba five eightnine foure zeroc
+
+Flag: e48387d2353c6f0d8e0e39bc9901233ba5894e0c
